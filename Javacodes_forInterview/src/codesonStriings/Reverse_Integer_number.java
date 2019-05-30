@@ -1,6 +1,7 @@
 package codesonStriings;
 
 import java.io.File;
+import java.util.Date;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -22,6 +23,14 @@ public class Reverse_Integer_number {
 		         }	 
 		         
 		         System.out.println(sum);
+		         Date d = new Date();
+		         
+		        String todaydate= d.toString();
+		        System.out.println(todaydate);
+		        
+		       String todaydate1 = todaydate.replaceAll(":","/");
+		       System.out.println(todaydate1);
+		         
 	}
 	
 	  
