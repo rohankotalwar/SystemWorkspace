@@ -64,6 +64,7 @@ public class ExtendReportListner implements IReporter
 					}
 
 					extent.endTest(test);
+					
 				}
 			}
 		}
