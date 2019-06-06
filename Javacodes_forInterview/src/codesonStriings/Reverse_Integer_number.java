@@ -17,7 +17,7 @@ public class Reverse_Integer_number {
 		
 	                   
 		         while(num>0) {
-		         sum=sum +num%10 ;
+		         sum=sum*10+num%10 ;
 		         num=num/10 ;
 		         
 		         }	 
