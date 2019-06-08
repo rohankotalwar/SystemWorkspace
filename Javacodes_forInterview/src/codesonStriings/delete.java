@@ -27,11 +27,8 @@ import String_Manipulation.Chromedriver;
 public class delete {
 	
 	public static void main(String[]args) {
-	WebDriver driver;
-		
+			System.out.println("hello");
 	
-	WebDriverWait wait = new WebDriverWait(driver, null, null, 0, 0)
-}		
 		
 		
 		
@@ -40,7 +37,7 @@ public class delete {
 		
 		
 		
-		
+}	
 		
 		
 		
