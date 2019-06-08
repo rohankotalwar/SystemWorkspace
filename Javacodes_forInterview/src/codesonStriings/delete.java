@@ -19,6 +19,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import String_Manipulation.Chromedriver;
@@ -26,20 +27,10 @@ import String_Manipulation.Chromedriver;
 public class delete {
 	
 	public static void main(String[]args) {
-		int a =1005 ;
-		int sum=0;
-		
-		
-		while(a>0) {
-		sum=sum+a%10;
-		a =a/10 ;
-
-		}
-		
-		System.out.println(sum);
-		
+	WebDriver driver;
 		
 	
+	WebDriverWait wait = new WebDriverWait(driver, null, null, 0, 0)
 }		
 		
 		

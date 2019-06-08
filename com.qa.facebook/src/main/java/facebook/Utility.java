@@ -83,6 +83,7 @@ import org.openqa.selenium.OutputType;
 				email.send();
 			
 				System.out.println("==========Email sent===============");
+				
 			}
 		}
 		
