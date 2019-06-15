@@ -26,9 +26,38 @@ import String_Manipulation.Chromedriver;
 
 public class delete {
 	
-	public static void main(String[]args) {
-			System.out.println("hello");
 	
+	
+	public static void amstrongnum(int num) {
+		
+		int t =num ;
+		int r ;
+		int sum=0 ;
+		
+		while(num>0) {
+			
+		
+		r=num%10 ;
+		sum = sum +(r*r*r);
+		num=num/10;
+		
+		
+		
+	}
+		
+		
+		if (t==sum) {
+			System.out.println("number is amstrong num");
+		}
+		
+		else {
+			System.out.println("number is not amstrng number");
+		}
+	}
+	
+	public static void main(String[]args) {
+			
+		delete.amstrongnum(123);
 		
 		
 		
